@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 44,
-    "active_layer_preset": "",
+    "active_layer_preset": "All Layers",
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -59,7 +59,7 @@
       36,
       37
     ],
-    "visible_layers": "3ffff_80000007"
+    "visible_layers": "7ffff_ffffffff"
   },
   "meta": {
     "filename": "ecp5-mini.kicad_prl",
