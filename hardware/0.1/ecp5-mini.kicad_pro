@@ -367,8 +367,24 @@
   },
   "sheets": [
     [
-      "2294ab76-a10a-43ae-9a5a-1b2d03d0b37b",
+      "da7b1adc-a39e-463f-be86-91ed57053384",
       ""
+    ],
+    [
+      "2e9499b3-40a7-4fb8-8fd9-4a6c3b97aea5",
+      "Hyperram / Micro SD"
+    ],
+    [
+      "d00c7eb5-4315-486e-b6f1-64546df11a37",
+      "Power"
+    ],
+    [
+      "b174e898-10b0-46f2-a2aa-6743c843025c",
+      "Board IO"
+    ],
+    [
+      "dc977d07-e2f1-4e46-a04d-d09b8b7fb491",
+      "FPGA Config"
     ]
   ],
   "text_variables": {}
