@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 44,
-    "active_layer_preset": "All Layers",
+    "active_layer": 0,
+    "active_layer_preset": "",
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -59,10 +59,62 @@
       36,
       37
     ],
-    "visible_layers": "7ffff_ffffffff"
+    "visible_layers": "4ffff_ffffffff"
   },
   "meta": {
     "filename": "ecp5-mini.kicad_prl",
     "version": 2
+  },
+  "project": {
+    "files": [
+      {
+        "name": "../../../../../../../home/josh/",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 794,
+          "pos_y": 27,
+          "size_x": 500,
+          "size_y": 363
+        }
+      },
+      {
+        "name": "ecp5-mini.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": 2002,
+          "pos_y": 0,
+          "size_x": 1440,
+          "size_y": 895
+        }
+      },
+      {
+        "name": "ecp5-mini.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 479,
+          "pos_y": 27,
+          "size_x": 500,
+          "size_y": 400
+        }
+      },
+      {
+        "name": "ecp5-mini.kicad_pro",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 642,
+          "pos_y": 138,
+          "size_x": 500,
+          "size_y": 400
+        }
+      }
+    ]
   }
 }
