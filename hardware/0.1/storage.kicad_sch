@@ -345,11 +345,11 @@
   (junction (at 215.9 144.78) (diameter 1.016) (color 0 0 0 0))
   (junction (at 187.96 74.93) (diameter 1.016) (color 0 0 0 0))
 
+  (no_connect (at 201.93 113.03))
   (no_connect (at 232.41 120.65))
   (no_connect (at 201.93 115.57))
-  (no_connect (at 232.41 123.19))
   (no_connect (at 232.41 125.73))
-  (no_connect (at 201.93 113.03))
+  (no_connect (at 232.41 123.19))
 
   (bus_entry (at 113.03 154.94) (size 2.54 2.54)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))

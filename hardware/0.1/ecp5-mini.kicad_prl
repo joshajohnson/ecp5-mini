@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "",
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -83,24 +83,24 @@
         "name": "ecp5-mini.kicad_pcb",
         "open": false,
         "window": {
-          "display": 1,
+          "display": 0,
           "maximized": true,
-          "pos_x": 1920,
-          "pos_y": 0,
-          "size_x": 1920,
-          "size_y": 969
+          "pos_x": 216,
+          "pos_y": 64,
+          "size_x": 1440,
+          "size_y": 932
         }
       },
       {
         "name": "ecp5-mini.kicad_sch",
         "open": false,
         "window": {
-          "display": 0,
+          "display": 1,
           "maximized": true,
-          "pos_x": 72,
-          "pos_y": 27,
+          "pos_x": 2162,
+          "pos_y": 37,
           "size_x": 924,
-          "size_y": 1016
+          "size_y": 752
         }
       },
       {

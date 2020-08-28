@@ -36,8 +36,8 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": true,
         "zones": {
-          "45_degree_only": true,
-          "min_clearance": 0.508
+          "45_degree_only": false,
+          "min_clearance": 0.127
         }
       },
       "diff_pair_dimensions": [
@@ -108,6 +108,7 @@
         0.15,
         0.15,
         0.2,
+        0.25,
         0.3,
         0.4,
         0.6,
@@ -371,7 +372,7 @@
   },
   "sheets": [
     [
-      "05362a45-5b4e-4ca0-8768-ec4919ab3030",
+      "b12e84d2-e174-4ac3-8bec-db7c183a3ebe",
       ""
     ],
     [
