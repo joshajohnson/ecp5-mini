@@ -36,7 +36,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": true,
         "zones": {
-          "45_degree_only": false,
+          "45_degree_only": true,
           "min_clearance": 0.508
         }
       },
@@ -90,25 +90,28 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.15,
         "min_copper_edge_clearance": 0.01,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_through_hole_diameter": 0.25,
         "min_track_width": 0.15,
-        "min_via_annulus": 0.049999999999999996,
-        "min_via_diameter": 0.5,
+        "min_via_annulus": 0.09999999999999999,
+        "min_via_diameter": 0.44999999999999996,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_paste_clearance": 0.0,
         "solder_paste_margin_ratio": -0.0
       },
       "track_widths": [
-        0.25,
+        0.15,
+        0.15,
         0.2,
         0.3,
-        0.4
+        0.4,
+        0.6,
+        1.0
       ],
       "via_dimensions": [
         {
@@ -312,7 +315,7 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -320,7 +323,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Default",
-        "track_width": 0.25,
+        "track_width": 0.15,
         "via_diameter": 0.5,
         "via_drill": 0.25,
         "wire_width": 6.0
@@ -368,12 +371,16 @@
   },
   "sheets": [
     [
-      "9d2b42de-d1de-42e3-b65e-b729bbd4d0d1",
+      "05362a45-5b4e-4ca0-8768-ec4919ab3030",
       ""
     ],
     [
       "dc977d07-e2f1-4e46-a04d-d09b8b7fb491",
       "FPGA Config"
+    ],
+    [
+      "d00c7eb5-4315-486e-b6f1-64546df11a37",
+      "Power"
     ],
     [
       "712a4c0c-971a-449e-8d47-4a31e7055952",
@@ -382,10 +389,6 @@
     [
       "2e9499b3-40a7-4fb8-8fd9-4a6c3b97aea5",
       "Hyperram / Micro SD"
-    ],
-    [
-      "d00c7eb5-4315-486e-b6f1-64546df11a37",
-      "Power"
     ],
     [
       "b174e898-10b0-46f2-a2aa-6743c843025c",
