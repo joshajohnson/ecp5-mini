@@ -1,6 +1,6 @@
 (kicad_sch (version 20200820) (host eeschema "5.99.0-unknown-b0af66afc~103~ubuntu20.04.1")
 
-  (page 2 6)
+  (page 3 5)
 
   (paper "A4")
 
@@ -2565,13 +2565,13 @@
   (junction (at 232.41 62.865) (diameter 1.016) (color 0 0 0 0))
   (junction (at 232.41 76.835) (diameter 1.016) (color 0 0 0 0))
 
+  (no_connect (at 193.04 151.13))
+  (no_connect (at 46.99 60.96))
+  (no_connect (at 193.04 118.11))
+  (no_connect (at 46.99 63.5))
+  (no_connect (at 193.04 143.51))
   (no_connect (at 193.04 125.73))
   (no_connect (at 193.04 128.27))
-  (no_connect (at 193.04 151.13))
-  (no_connect (at 46.99 63.5))
-  (no_connect (at 193.04 118.11))
-  (no_connect (at 193.04 143.51))
-  (no_connect (at 46.99 60.96))
 
   (bus_entry (at 115.57 46.99) (size 2.54 -2.54)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
@@ -3259,7 +3259,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
   )
 
-  (hierarchical_label "USB" (shape bidirectional) (at 129.54 40.64 0)
+  (hierarchical_label "{USB[0..2]}" (shape bidirectional) (at 129.54 40.64 0)
     (effects (font (size 1.27 1.27)) (justify left))
   )
 

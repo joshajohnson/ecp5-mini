@@ -372,28 +372,24 @@
   },
   "sheets": [
     [
-      "b12e84d2-e174-4ac3-8bec-db7c183a3ebe",
+      "dc9ca1fd-466f-4b97-b5b3-5bcb4765fd90",
       ""
-    ],
-    [
-      "dc977d07-e2f1-4e46-a04d-d09b8b7fb491",
-      "FPGA Config"
-    ],
-    [
-      "d00c7eb5-4315-486e-b6f1-64546df11a37",
-      "Power"
     ],
     [
       "712a4c0c-971a-449e-8d47-4a31e7055952",
       "LEDs"
     ],
     [
-      "2e9499b3-40a7-4fb8-8fd9-4a6c3b97aea5",
-      "Hyperram / Micro SD"
+      "dc977d07-e2f1-4e46-a04d-d09b8b7fb491",
+      "FPGA Config"
     ],
     [
-      "b174e898-10b0-46f2-a2aa-6743c843025c",
-      "Board IO"
+      "21e1d09e-814d-48d1-9d12-f10ecc5be843",
+      "SD / Hyperram"
+    ],
+    [
+      "d00c7eb5-4315-486e-b6f1-64546df11a37",
+      "Power"
     ]
   ],
   "text_variables": {}
