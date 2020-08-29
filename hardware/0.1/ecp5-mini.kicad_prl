@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "",
     "hidden_nets": [
       "/PORT_A0",
@@ -151,34 +151,10 @@
         "window": {
           "display": 0,
           "maximized": true,
-          "pos_x": 429,
-          "pos_y": 64,
+          "pos_x": 398,
+          "pos_y": 27,
           "size_x": 1386,
           "size_y": 942
-        }
-      },
-      {
-        "name": "ecp5-mini.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": 2949,
-          "pos_y": 0,
-          "size_x": 500,
-          "size_y": 400
-        }
-      },
-      {
-        "name": "ecp5-mini.kicad_pro",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 642,
-          "pos_y": 323,
-          "size_x": 500,
-          "size_y": 400
         }
       }
     ]

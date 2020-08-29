@@ -372,17 +372,15 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.127,
-        "diff_pair_gap": 0.15,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.15,
+        "diff_pair_width": 0.127,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Hyperram",
         "nets": [
-          "/HR_CK_N",
-          "/HR_CK_P",
           "/HR_DQ0",
           "/HR_DQ1",
           "/HR_DQ2",
@@ -548,8 +546,8 @@
         ],
         "pcb_color": "rgb(255, 0, 0)",
         "track_width": 0.3,
-        "via_diameter": 0.3,
-        "via_drill": 0.6,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6.0
       },
       {
@@ -639,7 +637,7 @@
   },
   "sheets": [
     [
-      "70b53121-1c46-40ed-8d52-b09aa71a7108",
+      "1541d4a8-530e-4ed4-8308-77837b8177f7",
       ""
     ],
     [
