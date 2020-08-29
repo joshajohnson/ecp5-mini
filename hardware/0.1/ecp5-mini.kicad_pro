@@ -105,7 +105,7 @@
         "solder_paste_margin_ratio": -0.0
       },
       "track_widths": [
-        0.127,
+        0.3,
         0.127,
         0.15,
         0.2,
@@ -117,8 +117,8 @@
       ],
       "via_dimensions": [
         {
-          "diameter": 0.45,
-          "drill": 0.25
+          "diameter": 0.6,
+          "drill": 0.3
         },
         {
           "diameter": 0.45,
@@ -350,15 +350,16 @@
         "name": "Config",
         "nets": [
           "/FPGA Config/CFG.CDONE",
-          "/FPGA Config/CFG.CLK",
-          "/FPGA Config/CFG.CS",
-          "/FPGA Config/CFG.IO0",
-          "/FPGA Config/CFG.IO1",
-          "/FPGA Config/CFG.IO2",
-          "/FPGA Config/CFG.IO3",
           "/FPGA Config/CFG_0",
           "/FPGA Config/CFG_1",
           "/FPGA Config/CFG_2",
+          "/FPGA Config/CFG_CDONE",
+          "/FPGA Config/CFG_CLK",
+          "/FPGA Config/CFG_CS",
+          "/FPGA Config/CFG_IO0",
+          "/FPGA Config/CFG_IO1",
+          "/FPGA Config/CFG_IO2",
+          "/FPGA Config/CFG_IO3",
           "/FPGA Config/TCK",
           "/FPGA Config/TDI",
           "/FPGA Config/TDO",
@@ -484,8 +485,6 @@
         "microvia_drill": 0.1,
         "name": "LED/Btn",
         "nets": [
-          "/FPGA Config/FPGA_OK",
-          "/FPGA Config/LED_USR",
           "/FPGA Config/nBTN_USR",
           "/FPGA Config/nFPGA_RST",
           "/LED_B",
@@ -494,14 +493,6 @@
           "/LEDs/CAT_B",
           "/LEDs/CAT_G",
           "/LEDs/CAT_R",
-          "/LEDs/LED_0",
-          "/LEDs/LED_1",
-          "/LEDs/LED_2",
-          "/LEDs/LED_3",
-          "/LEDs/LED_4",
-          "/LEDs/LED_5",
-          "/LEDs/LED_6",
-          "/LEDs/LED_7",
           "Net-(D1-Pad2)",
           "Net-(D10-Pad4)",
           "Net-(D11-Pad4)",
@@ -637,7 +628,7 @@
   },
   "sheets": [
     [
-      "1541d4a8-530e-4ed4-8308-77837b8177f7",
+      "4f545436-6001-404f-a7dd-2e7203d8d5ab",
       ""
     ],
     [
