@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "",
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -71,22 +71,34 @@
         "name": "../../../../../../../home/josh/",
         "open": false,
         "window": {
-          "display": 0,
+          "display": 1,
           "maximized": true,
-          "pos_x": 794,
-          "pos_y": 27,
+          "pos_x": 2660,
+          "pos_y": 0,
           "size_x": 500,
           "size_y": 363
         }
       },
       {
-        "name": "ecp5-mini.kicad_pcb",
+        "name": "ecp5-mini.kicad_sch",
         "open": false,
         "window": {
-          "display": 0,
+          "display": 1,
           "maximized": true,
-          "pos_x": 72,
-          "pos_y": 27,
+          "pos_x": 1920,
+          "pos_y": 0,
+          "size_x": 960,
+          "size_y": 1006
+        }
+      },
+      {
+        "name": "ecp5-mini.kicad_pcb",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": false,
+          "pos_x": 81,
+          "pos_y": -3,
           "size_x": 1848,
           "size_y": 1016
         }
@@ -101,18 +113,6 @@
           "pos_y": 397,
           "size_x": 500,
           "size_y": 400
-        }
-      },
-      {
-        "name": "ecp5-mini.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": 1920,
-          "pos_y": 0,
-          "size_x": 960,
-          "size_y": 1006
         }
       }
     ]
