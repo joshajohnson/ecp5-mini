@@ -66,55 +66,6 @@
     "version": 2
   },
   "project": {
-    "files": [
-      {
-        "name": "../../../../../../../home/josh/",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": 2660,
-          "pos_y": 0,
-          "size_x": 500,
-          "size_y": 363
-        }
-      },
-      {
-        "name": "ecp5-mini.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 72,
-          "pos_y": 27,
-          "size_x": 1848,
-          "size_y": 1016
-        }
-      },
-      {
-        "name": "ecp5-mini.kicad_pro",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 642,
-          "pos_y": 360,
-          "size_x": 500,
-          "size_y": 400
-        }
-      },
-      {
-        "name": "ecp5-mini.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": 1920,
-          "pos_y": 0,
-          "size_x": 960,
-          "size_y": 1043
-        }
-      }
-    ]
+    "files": []
   }
 }
