@@ -522,7 +522,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.15,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -635,7 +635,7 @@
   },
   "sheets": [
     [
-      "3a13213e-4027-4cae-b8d2-7ff122ad49bf",
+      "fee15cf2-7cd0-4fa2-bcd0-c9ce3eea8a9f",
       ""
     ],
     [

@@ -473,6 +473,8 @@
     )
   )
 
+  (bus_alias "LED_CAT" (members "CAT_R" "CAT_G" "CAT_B"))
+
   (junction (at 123.19 125.73) (diameter 1.016) (color 0 0 0 0))
   (junction (at 153.67 125.73) (diameter 1.016) (color 0 0 0 0))
   (junction (at 181.61 125.73) (diameter 1.016) (color 0 0 0 0))
@@ -985,6 +987,9 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
   )
   (label "CAT_B" (at 173.99 104.14 90)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+  )
+  (label "{LED_CAT}" (at 175.26 111.76 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
   )
   (label "CAT_R" (at 182.88 104.14 90)

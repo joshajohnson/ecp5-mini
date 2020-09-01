@@ -68,27 +68,15 @@
   "project": {
     "files": [
       {
-        "name": "../../../../../../../home/josh/",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": 2660,
-          "pos_y": 0,
-          "size_x": 500,
-          "size_y": 363
-        }
-      },
-      {
         "name": "ecp5-mini.kicad_sch",
-        "open": false,
+        "open": true,
         "window": {
-          "display": 1,
+          "display": 0,
           "maximized": true,
-          "pos_x": 1920,
-          "pos_y": 0,
+          "pos_x": 529,
+          "pos_y": 64,
           "size_x": 960,
-          "size_y": 1006
+          "size_y": 969
         }
       },
       {
@@ -101,6 +89,18 @@
           "pos_y": -3,
           "size_x": 1848,
           "size_y": 1016
+        }
+      },
+      {
+        "name": "../../../../../../../home/josh/",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": 2660,
+          "pos_y": 0,
+          "size_x": 500,
+          "size_y": 363
         }
       },
       {
