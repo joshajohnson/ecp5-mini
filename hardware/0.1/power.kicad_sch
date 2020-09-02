@@ -1,4 +1,4 @@
-(kicad_sch (version 20200820) (host eeschema "5.99.0-unknown-b0af66afc~103~ubuntu20.04.1")
+(kicad_sch (version 20200827) (generator eeschema)
 
   (page 5 5)
 
@@ -189,7 +189,7 @@
         )
       )
     )
-    (symbol "Regulator_Switching:TLV62568DBV" (pin_names (offset 0.508))
+    (symbol "Regulator_Switching:TLV62568DBV"
       (property "Reference" "U" (id 0) (at -5.08 6.35 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )

@@ -59,62 +59,13 @@
       36,
       37
     ],
-    "visible_layers": "4ffff_ffffffff"
+    "visible_layers": "5ffff_ffffffff"
   },
   "meta": {
     "filename": "ecp5-mini.kicad_prl",
     "version": 2
   },
   "project": {
-    "files": [
-      {
-        "name": "ecp5-mini.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 529,
-          "pos_y": 64,
-          "size_x": 960,
-          "size_y": 969
-        }
-      },
-      {
-        "name": "ecp5-mini.kicad_pcb",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 81,
-          "pos_y": -3,
-          "size_x": 1848,
-          "size_y": 1016
-        }
-      },
-      {
-        "name": "../../../../../../../home/josh/",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": 2660,
-          "pos_y": 0,
-          "size_x": 500,
-          "size_y": 363
-        }
-      },
-      {
-        "name": "ecp5-mini.kicad_pro",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 642,
-          "pos_y": 397,
-          "size_x": 500,
-          "size_y": 400
-        }
-      }
-    ]
+    "files": []
   }
 }

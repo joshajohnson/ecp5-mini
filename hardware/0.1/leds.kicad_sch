@@ -1,4 +1,4 @@
-(kicad_sch (version 20200820) (host eeschema "5.99.0-unknown-b0af66afc~103~ubuntu20.04.1")
+(kicad_sch (version 20200827) (generator eeschema)
 
   (page 2 5)
 
@@ -43,7 +43,7 @@
         )
       )
     )
-    (symbol "Transistor_FET:BSS138" (pin_names (offset 0.508) hide)
+    (symbol "Transistor_FET:BSS138" (pin_names hide)
       (property "Reference" "Q" (id 0) (at 5.08 1.905 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -474,7 +474,6 @@
   )
 
   (bus_alias "LED_CAT" (members "CAT_R" "CAT_G" "CAT_B"))
-
   (junction (at 123.19 125.73) (diameter 1.016) (color 0 0 0 0))
   (junction (at 153.67 125.73) (diameter 1.016) (color 0 0 0 0))
   (junction (at 181.61 125.73) (diameter 1.016) (color 0 0 0 0))
