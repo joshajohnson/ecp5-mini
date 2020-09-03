@@ -5,22 +5,22 @@ Status: Work in progress, design not finalised. Bringup ETA end of September.
 Designed in Kicad nightly.
 ```
 
-![WIP Render](docs/render-wip.jpeg)
+![WIP Front Render](docs/imgs/front-render.jpg)
 
 
 ECP5 Mini is a Lattice ECP5 FPGA in the [Black Mesa Labs "S7 Mini" form factor](https://blackmesalabs.wordpress.com/2019/05/19/bml-s7-mini-fpga-module/).
 
 ## Key Features
 - Lattice ECP5-12/25F FPGA in a caBGA256 package.
-- 32 / 64 3V3 IO on 2.54mm / 1.27mm pitch grid.
-- 64 Mbit HyperRAM DRAM (3V3 / 100 MHz only).
-- USB Full Speed (12Mbit) connection to FPGA over Type-C connector.
-- MicroSD card support (on back of board).
+- 32 / 64 3V3 IO on a 2.54mm / 1.27mm pitch grid.
+- 64 Mbit HyperRAM (3V3 / 100 MHz only).
+- USB Full Speed (12Mbit) connection to FPGA over a Type-C connector.
+- MicroSD card connector.
 - 8 Multiplexed RGB LEDs.
 - Designed to work with OSHPark's 4 layer service.
 
 ## Why?
-After getting over my fears of BGA after assembling a [Glasgow](https://github.com/GlasgowEmbedded/Glasgow) recently, I decided the next logical step was to design a BGA into a board of my own. An ECP5 was the obvious choice to follow on from my [iCE40-feather](https://github.com/joshajohnson/ice40-feather) designed last year as it steps up the resources and available IO. There are also a growing number of open ECP5 dev boards and projects that I have / can learn from during the hardware and gateware development. 
+After getting over my fears of BGA after assembling a [Glasgow](https://github.com/GlasgowEmbedded/Glasgow) recently, I decided the next logical step was to design a BGA into a board of my own. An ECP5 was the obvious choice to follow on from my [iCE40-feather](https://github.com/joshajohnson/ice40-feather) as it steps up the resources and available IO. There are also a growing number of open ECP5 dev boards and projects that I have / can learn from during the hardware and gateware development, which make the odds of success much higher!
 
 ## Thanks
 Not only was this project inspired by the growing number of OSHW FPGA designs, but I referenced a number of them during the hardware development. A huge thank you needs to be given to these people as otherwise my design would likely have even more bugs...
@@ -31,3 +31,5 @@ Not only was this project inspired by the growing number of OSHW FPGA designs, b
 - Luke Valenty's [TinyFPGA-EX](https://github.com/tinyfpga/TinyFPGA-EX).
 - 1BitSquared's [HyperRAM PMOD](https://1bitsquared.com/collections/fpga/products/pmod-hyperram) for symbol and footprint.
 - ECP5 Symbol from xesscorp's [Kicad Schematic Symbol Library](https://github.com/xesscorp/KiCad-Schematic-Symbol-Libraries).
+
+![WIP back Render](docs/imgs/back-render.jpg)
