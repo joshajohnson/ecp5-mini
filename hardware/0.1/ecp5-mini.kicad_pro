@@ -334,6 +334,8 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.45,
         "via_drill": 0.25,
@@ -366,6 +368,7 @@
           "/FPGA Config/TMS"
         ],
         "pcb_color": "rgb(0, 132, 132)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.45,
         "via_drill": 0.25,
@@ -395,6 +398,7 @@
           "/HR_nRST"
         ],
         "pcb_color": "rgb(0, 0, 255)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.45,
         "via_drill": 0.25,
@@ -477,6 +481,7 @@
           "/PORT_H7"
         ],
         "pcb_color": "rgb(0, 255, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.45,
         "via_drill": 0.25,
@@ -516,6 +521,7 @@
           "Net-(D9-Pad4)"
         ],
         "pcb_color": "rgb(0, 255, 255)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.45,
         "via_drill": 0.25,
@@ -544,6 +550,7 @@
           "Net-(L2-Pad1)"
         ],
         "pcb_color": "rgb(255, 0, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -561,6 +568,7 @@
         "name": "SD",
         "nets": [],
         "pcb_color": "rgb(0, 0, 132)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.45,
         "via_drill": 0.25,
@@ -588,6 +596,7 @@
           "Net-(U1-PadJ5)"
         ],
         "pcb_color": "rgb(255, 0, 255)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.45,
         "via_drill": 0.25,
@@ -636,7 +645,7 @@
   },
   "sheets": [
     [
-      "ff7bfd6d-cab2-4bcb-8f3a-ae3732dd5b35",
+      "d6d768cd-47cf-4bb2-8b63-6bac5ad580f9",
       ""
     ],
     [
