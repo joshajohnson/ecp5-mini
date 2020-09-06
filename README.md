@@ -3,9 +3,10 @@
 ``` 
 Status: Work in progress, design not finalised. Bringup ETA end of September. 
 Designed in Kicad nightly.
+Ensure you clone --recursive and checkout the "nightly" branch of josh-kicad-lib.
 ```
 
-![WIP Render](docs/render-wip.jpeg)
+![WIP Render](docs/imgs/front-render.jpg)
 
 
 ECP5 Mini is a Lattice ECP5 FPGA in the [Black Mesa Labs "S7 Mini" form factor](https://blackmesalabs.wordpress.com/2019/05/19/bml-s7-mini-fpga-module/).
