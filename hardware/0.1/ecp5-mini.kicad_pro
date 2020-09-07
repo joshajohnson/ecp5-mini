@@ -507,18 +507,10 @@
           "/LEDs/CAT_G",
           "/LEDs/CAT_R",
           "Net-(D1-Pad2)",
-          "Net-(D10-Pad4)",
-          "Net-(D11-Pad4)",
           "Net-(D12-Pad2)",
           "Net-(D2-Pad1)",
           "Net-(D2-Pad2)",
-          "Net-(D3-Pad2)",
-          "Net-(D4-Pad4)",
-          "Net-(D5-Pad4)",
-          "Net-(D6-Pad4)",
-          "Net-(D7-Pad4)",
-          "Net-(D8-Pad4)",
-          "Net-(D9-Pad4)"
+          "Net-(D3-Pad2)"
         ],
         "pcb_color": "rgb(0, 255, 255)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -645,7 +637,7 @@
   },
   "sheets": [
     [
-      "d6d768cd-47cf-4bb2-8b63-6bac5ad580f9",
+      "62bc890e-e72b-4d6d-8eee-a9dc0ecb6117",
       ""
     ],
     [
