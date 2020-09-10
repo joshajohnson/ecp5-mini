@@ -99,7 +99,7 @@
         "min_track_width": 0.127,
         "min_via_annulus": 0.09999999999999999,
         "min_via_diameter": 0.44999999999999996,
-        "solder_mask_clearance": 0.03,
+        "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_paste_clearance": 0.0,
         "solder_paste_margin_ratio": -0.0
@@ -606,7 +606,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ecp5-mini.step",
       "vmrl": ""
     },
     "page_layout_descr_file": ""

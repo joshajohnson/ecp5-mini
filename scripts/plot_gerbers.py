@@ -25,6 +25,7 @@
 
 import sys
 import os
+sys.path.insert(1, '/usr/lib/kicad-nightly/lib/python3/dist-packages/')
 import pcbnew
 import time
 
@@ -56,7 +57,7 @@ popt.SetOutputDirectory(output_directory)
 
 # Set some important plot options:
 popt.SetPlotFrameRef(False)
-popt.SetLineWidth(FromMM(0.35))
+# popt.SetLineWidth(FromMM(0.35))
 
 popt.SetAutoScale(False)
 popt.SetScale(1)
@@ -132,8 +133,8 @@ drlwriter.SetMapFileFormat( PLOT_FORMAT_PDF )
 
 mirror = False
 minimalHeader = False
-#offset = wxPoint(0,0)
-offset = board.GetAuxOrigin()
+offset = wxPoint(0,0)
+# offset = board.GetAuxOrigin()
 mergeNPTH = True
 drlwriter.SetOptions( mirror, minimalHeader, offset, mergeNPTH )
 
