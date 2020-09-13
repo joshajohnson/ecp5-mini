@@ -1,11 +1,11 @@
-(kicad_sch (version 20200827) (generator eeschema)
+(kicad_sch (version 20200828) (generator eeschema)
 
   (page 4 5)
 
   (paper "A4")
 
   (lib_symbols
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254))
+    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -54,7 +54,7 @@
         )
       )
     )
-    (symbol "josh-connector:Micro_SD_Card"
+    (symbol "josh-connector:Micro_SD_Card" (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at -3.81 16.51 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -128,7 +128,7 @@
         )
       )
     )
-    (symbol "josh-memory:S27KL0641"
+    (symbol "josh-memory:S27KL0641" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 20.32 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -245,7 +245,7 @@
         )
       )
     )
-    (symbol "power:+3V3" (power) (pin_names (offset 0))
+    (symbol "power:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -294,7 +294,7 @@
         )
       )
     )
-    (symbol "power:GND" (power) (pin_names (offset 0))
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -346,12 +346,12 @@
   (junction (at 212.09 127) (diameter 1.016) (color 0 0 0 0))
   (junction (at 184.15 57.15) (diameter 1.016) (color 0 0 0 0))
 
-  (no_connect (at 198.12 92.71))
   (no_connect (at 228.6 105.41))
-  (no_connect (at 228.6 102.87))
-  (no_connect (at 228.6 107.95))
-  (no_connect (at 198.12 97.79))
   (no_connect (at 198.12 95.25))
+  (no_connect (at 198.12 97.79))
+  (no_connect (at 228.6 107.95))
+  (no_connect (at 198.12 92.71))
+  (no_connect (at 228.6 102.87))
 
   (bus_entry (at 82.55 73.66) (size 2.54 2.54)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
