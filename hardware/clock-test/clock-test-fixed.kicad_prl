@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 37,
-    "active_layer_preset": "",
+    "active_layer": 0,
+    "active_layer_preset": "All Layers",
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -11,7 +11,6 @@
       "vias": 1.0,
       "zones": 1.0
     },
-    "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
@@ -60,10 +59,10 @@
       36,
       37
     ],
-    "visible_layers": "2ffff_80000001"
+    "visible_layers": "7ffff_ffffffff"
   },
   "meta": {
-    "filename": "quad-pmod.kicad_prl",
+    "filename": "clock-test-fixed.kicad_prl",
     "version": 2
   },
   "project": {

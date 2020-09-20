@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 37,
+    "active_layer": 0,
     "active_layer_preset": "",
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -60,10 +60,10 @@
       36,
       37
     ],
-    "visible_layers": "2ffff_80000001"
+    "visible_layers": "7ffff_ffffffff"
   },
   "meta": {
-    "filename": "quad-pmod.kicad_prl",
+    "filename": "leds.kicad_prl",
     "version": 2
   },
   "project": {

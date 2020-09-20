@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 37,
+    "active_layer": 0,
     "active_layer_preset": "",
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -63,7 +63,7 @@
     "visible_layers": "2ffff_80000001"
   },
   "meta": {
-    "filename": "quad-pmod.kicad_prl",
+    "filename": "clock-test.kicad_prl",
     "version": 2
   },
   "project": {
