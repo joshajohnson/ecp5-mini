@@ -10,7 +10,7 @@
         "copper_text_thickness": 0.3,
         "copper_text_upright": true,
         "courtyard_line_width": 0.049999999999999996,
-        "dimension_precision": 3,
+        "dimension_precision": 1,
         "dimension_units": 2,
         "dimensions": {
           "arrow_length": 1270000,
@@ -382,7 +382,7 @@
   },
   "sheets": [
     [
-      "46caddd6-3eb6-4013-96ba-4c5280b96f12",
+      "daf94dba-bb47-4d52-baa5-28193d0dd4c3",
       ""
     ]
   ],

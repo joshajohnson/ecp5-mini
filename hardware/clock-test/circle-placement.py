@@ -34,9 +34,9 @@ for x in range(1,16):
 	x_center = 150
 	y_center = 100
 
-	radius = 35
+	radius = 40
 
-	angle = (360 / 15 * x) % 360 - 6
+	angle = (360 / 15 * x) % 360 - 10
 
 	x_led = x_center + math.cos(math.radians(angle)) * radius
 	y_led = y_center + math.sin(math.radians(angle)) * radius
