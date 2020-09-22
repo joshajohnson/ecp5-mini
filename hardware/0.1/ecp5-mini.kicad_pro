@@ -75,7 +75,6 @@
         "keepout": "error",
         "malformed_courtyard": "error",
         "microvia_drill_too_small": "error",
-        "microvia_too_small": "error",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
@@ -90,7 +89,6 @@
         "unresolved_variable": "error",
         "via_dangling": "warning",
         "via_hole_larger_than_pad": "error",
-        "via_too_small": "error",
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
