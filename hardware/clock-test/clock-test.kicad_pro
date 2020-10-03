@@ -60,10 +60,12 @@
         "version": 1
       },
       "rule_severities": {
-        "annulus": "error",
+        "annular_width": "error",
         "clearance": "error",
         "copper_edge_clearance": "error",
         "courtyards_overlap": "error",
+        "diff_pair_gap_out_of_range": "error",
+        "diff_pair_uncoupled_length_too_long": "error",
         "drill_too_small": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
@@ -73,6 +75,7 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "keepout": "error",
+        "length_out_of_range": "error",
         "malformed_courtyard": "error",
         "microvia_drill_too_small": "error",
         "missing_courtyard": "ignore",
@@ -82,6 +85,10 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
+        "silk_clearance": "error",
+        "silk_over_pad": "error",
+        "skew_out_of_range": "error",
+        "too_many_vias": "error",
         "track_dangling": "warning",
         "track_width": "error",
         "tracks_crossing": "error",
@@ -105,6 +112,7 @@
         "min_microvia_drill": 0.09999999999999999,
         "min_through_hole_diameter": 0.25,
         "min_track_width": 0.127,
+        "min_via_annular_width": 0.049999999999999996,
         "min_via_annulus": 0.09999999999999999,
         "min_via_diameter": 0.44999999999999996,
         "solder_mask_clearance": 0.0,
@@ -352,7 +360,8 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "ecp5-mini.step",
-      "vmrl": ""
+      "vmrl": "",
+      "vrml": ""
     },
     "page_layout_descr_file": ""
   },
