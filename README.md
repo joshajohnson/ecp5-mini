@@ -26,7 +26,7 @@ r0.1 hardware has been assembled with no major issues being found at time of wri
 
 USB [dfu bootloader](https://github.com/joshajohnson/had2019-playground/tree/ecp5-mini) courtesy of [tnt](https://github.com/smunaut/) is working.
 
-Example gateware is a WIP and will be linked from here once ready. I designed this board to force myself to write more HDL so it needs to be cleaned up first.
+Example gateware can be found [here](https://github.com/joshajohnson/ecp5-mini-projects), however please note I built this board to force myself to write more HDL so it's probably full of bad practices.
 
 Check the issues [#1](https://github.com/joshajohnson/ecp5-mini/issues/1) for any errata / improvements to the design.
 
@@ -38,7 +38,6 @@ Not only was this project inspired by the growing number of OSHW FPGA designs, b
 - Black Mesa Lab's [S7 Mini](https://blackmesalabs.wordpress.com/2019/05/19/bml-s7-mini-fpga-module/) for the form factor and feature set inspiration.
 - Greg Davil and his [OrangeCrab](https://github.com/gregdavill/OrangeCrab) and [Butterstick](https://github.com/gregdavill/butterstick) development boards. 
 - Matt Venn's [Basic ECP5](https://github.com/mattvenn/basic-ecp5-pcb) design.
-- TNT's [2019 Hackaday Badge dfu bootloader](https://github.com/smunaut/had2019-playground)
 - SpriteTM / Hackaday's [2019 Supercon Badge](https://github.com/Spritetm/hadbadge2019_pcb).
 - Luke Valenty's [TinyFPGA-EX](https://github.com/tinyfpga/TinyFPGA-EX).
 - 1BitSquared's [HyperRAM PMOD](https://1bitsquared.com/collections/fpga/products/pmod-hyperram) for symbol and footprint.
