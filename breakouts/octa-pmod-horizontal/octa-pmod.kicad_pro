@@ -50,9 +50,9 @@
       },
       "diff_pair_dimensions": [
         {
-          "gap": 0.25,
-          "via_gap": 0.25,
-          "width": 0.2
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
         }
       ],
       "drc_exclusions": [],
@@ -60,10 +60,12 @@
         "version": 1
       },
       "rule_severities": {
-        "annulus": "error",
+        "annular_width": "error",
         "clearance": "error",
         "copper_edge_clearance": "error",
         "courtyards_overlap": "error",
+        "diff_pair_gap_out_of_range": "error",
+        "diff_pair_uncoupled_length_too_long": "error",
         "drill_too_small": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
@@ -73,6 +75,7 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "keepout": "error",
+        "length_out_of_range": "error",
         "malformed_courtyard": "error",
         "microvia_drill_too_small": "error",
         "missing_courtyard": "ignore",
@@ -82,6 +85,10 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
+        "silk_over_copper": "error",
+        "silk_overlap": "error",
+        "skew_out_of_range": "error",
+        "too_many_vias": "error",
         "track_dangling": "warning",
         "track_width": "error",
         "tracks_crossing": "error",
@@ -103,8 +110,10 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
+        "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.25,
         "min_track_width": 0.127,
+        "min_via_annular_width": 0.049999999999999996,
         "min_via_annulus": 0.09999999999999999,
         "min_via_diameter": 0.44999999999999996,
         "solder_mask_clearance": 0.0,
@@ -300,6 +309,7 @@
       "global_label_dangling": "error",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "lib_symbol_issues": "warning",
       "multiple_net_names": "error",
       "net_not_bus_member": "error",
       "no_connect_connected": "error",
@@ -352,7 +362,8 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "ecp5-mini.step",
-      "vmrl": ""
+      "vmrl": "",
+      "vrml": ""
     },
     "page_layout_descr_file": ""
   },
@@ -364,6 +375,10 @@
       "default_text_size": 50.0,
       "default_wire_thickness": 6.0,
       "field_names": [],
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },
