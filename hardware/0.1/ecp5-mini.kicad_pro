@@ -50,9 +50,9 @@
       },
       "diff_pair_dimensions": [
         {
-          "gap": 0.25,
-          "via_gap": 0.25,
-          "width": 0.2
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
         }
       ],
       "drc_exclusions": [],
@@ -85,8 +85,8 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_clearance": "error",
-        "silk_over_pad": "error",
+        "silk_over_copper": "error",
+        "silk_overlap": "error",
         "skew_out_of_range": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -110,6 +110,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
+        "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.25,
         "min_track_width": 0.127,
         "min_via_annular_width": 0.049999999999999996,
@@ -159,6 +160,7 @@
     "equivalence_files": []
   },
   "erc": {
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -318,6 +320,7 @@
       "global_label_dangling": "error",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "lib_symbol_issues": "warning",
       "multiple_net_names": "error",
       "net_not_bus_member": "error",
       "no_connect_connected": "error",
@@ -325,6 +328,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
       "similar_labels": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -521,12 +525,7 @@
           "/LED_R",
           "/LEDs/CAT_B",
           "/LEDs/CAT_G",
-          "/LEDs/CAT_R",
-          "Net-(D1-Pad2)",
-          "Net-(D12-Pad2)",
-          "Net-(D2-Pad1)",
-          "Net-(D2-Pad2)",
-          "Net-(D3-Pad2)"
+          "/LEDs/CAT_R"
         ],
         "pcb_color": "rgb(0, 255, 255)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -550,12 +549,7 @@
           "+2V5",
           "+3V3",
           "+5V",
-          "GND",
-          "Net-(C6-Pad1)",
-          "Net-(C8-Pad2)",
-          "Net-(C9-Pad2)",
-          "Net-(L1-Pad1)",
-          "Net-(L2-Pad1)"
+          "GND"
         ],
         "pcb_color": "rgb(255, 0, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -592,17 +586,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
-        "nets": [
-          "Net-(J5-PadA5)",
-          "Net-(J5-PadA6)",
-          "Net-(J5-PadA7)",
-          "Net-(J5-PadA8)",
-          "Net-(J5-PadB5)",
-          "Net-(J5-PadB8)",
-          "Net-(R10-Pad2)",
-          "Net-(R9-Pad1)",
-          "Net-(U1-PadJ5)"
-        ],
+        "nets": [],
         "pcb_color": "rgb(255, 0, 255)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
@@ -624,7 +608,7 @@
       "specctra_dsn": "",
       "step": "ecp5-mini.step",
       "vmrl": "",
-      "vrml": ""
+      "vrml": "../../renders/ecp5-mini.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -636,6 +620,11 @@
       "default_text_size": 50.0,
       "default_wire_thickness": 6.0,
       "field_names": [],
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },
@@ -654,7 +643,7 @@
   },
   "sheets": [
     [
-      "d4d76324-c05f-4cc7-be85-227b63ac1e38",
+      "b30d8ead-b40a-467c-bd0d-667143333758",
       ""
     ],
     [

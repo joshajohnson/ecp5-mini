@@ -37,6 +37,6 @@ fp-info-cache
 
 # 3D Models
 *.step
-
+renders/*
 # ref folder
 ref/*

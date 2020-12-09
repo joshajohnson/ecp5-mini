@@ -1,6 +1,6 @@
-(kicad_sch (version 20200828) (generator eeschema)
+(kicad_sch (version 20201015) (generator eeschema)
 
-  (page 4 5)
+  (page 1 5)
 
   (paper "A4")
 
@@ -347,11 +347,11 @@
   (junction (at 184.15 57.15) (diameter 1.016) (color 0 0 0 0))
 
   (no_connect (at 228.6 105.41))
-  (no_connect (at 198.12 97.79))
-  (no_connect (at 228.6 107.95))
-  (no_connect (at 228.6 102.87))
   (no_connect (at 198.12 95.25))
   (no_connect (at 198.12 92.71))
+  (no_connect (at 228.6 107.95))
+  (no_connect (at 198.12 97.79))
+  (no_connect (at 228.6 102.87))
 
   (bus_entry (at 82.55 73.66) (size 2.54 2.54)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
@@ -1053,6 +1053,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Mouser" "538-104031-0811 " (id 6) (at 104.14 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C585350" (id 4) (at 104.14 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
