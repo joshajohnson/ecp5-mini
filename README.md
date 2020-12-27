@@ -3,8 +3,7 @@
 ``` 
 Status: r0.1 assembled and working, HyperRAM and SD card testing TODO.
 
-Designed in Kicad nightly.
-Ensure you clone --recursive and checkout the "nightly" branch of josh-kicad-lib.
+Designed in Kicad nightly, ensure you clone --recursive.
 ```
 
 ![WIP Render](docs/imgs/freshly-baked.jpeg)
