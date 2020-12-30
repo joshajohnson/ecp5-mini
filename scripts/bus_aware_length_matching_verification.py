@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import re
 import os.path
 import sys
@@ -68,7 +68,7 @@ and the whole pair to 5.0 mm tolerance with respect to data1_rule:
     netnames: "CLK_[PN]"
     tolerance: 0.05 mm
     vialength: 0.0 mm
-    
+    0
     LENGTH MATCHING:
     id: dclk2_rule
     netnames: "CLK_[PN]"
@@ -167,7 +167,7 @@ class NetDB(object):
         pcb.BuildListOfNets()  # required so 'pcb' contains valid netclass data
         for track in pcb.GetTracks():
             name = track.GetNet().GetNetname()
-            clsname = track.GetNet().GetClassName()
+            clsname = track.GetNet().GetNetClassName()
             length = track.GetLength()
             if name in obj.db:
                 obj.db[name].netlength += length
@@ -492,7 +492,7 @@ def main(filepath_pcblayout, filepath_schematic):
             else:
                 allmatches = match_netgroup(a, nets) and allmatches
         if allmatches:
-            print('\nâ†’ Finished =)')
+            print('\nFinished =)')
             sys.exit(0)
         #  print(CLEARPAGE, end='')
 
