@@ -642,7 +642,7 @@
     },
     "net_format_name": "Pcbnew",
     "page_layout_descr_file": "",
-    "plot_directory": "./",
+    "plot_directory": "./outputs",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
@@ -650,12 +650,8 @@
   },
   "sheets": [
     [
-      "712a4c0c-971a-449e-8d47-4a31e7055952",
+      "dc977d07-e2f1-4e46-a04d-d09b8b7fb491",
       ""
-    ],
-    [
-      "712a4c0c-971a-449e-8d47-4a31e7055952",
-      "LEDs"
     ],
     [
       "dc977d07-e2f1-4e46-a04d-d09b8b7fb491",
@@ -664,6 +660,10 @@
     [
       "21e1d09e-814d-48d1-9d12-f10ecc5be843",
       "SD / Hyperram"
+    ],
+    [
+      "712a4c0c-971a-449e-8d47-4a31e7055952",
+      "LEDs"
     ],
     [
       "d00c7eb5-4315-486e-b6f1-64546df11a37",

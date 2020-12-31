@@ -2,6 +2,7 @@
 
 ``` 
 Status: r0.1 assembled and working, HyperRAM and SD card testing TODO.
+        r0.2 yet to be assembled or tested.
 
 Designed in Kicad nightly, ensure you clone --recursive.
 ```
@@ -14,14 +15,18 @@ ECP5 Mini is a Lattice ECP5 FPGA in the [Black Mesa Labs "S7 Mini" form factor](
 ## Key Features
 - Lattice ECP5-12/25F FPGA in a caBGA256 package.
 - 32 / 64 3V3 IO on 2.54mm / 1.27mm pitch grid.
-- 64 Mbit HyperRAM DRAM (3V3 / 100 MHz only).
+- 64 Mbit HyperRAM DRAM.
 - USB Full Speed (12Mbit) connection to FPGA over Type-C connector.
 - MicroSD card support (on back of board).
 - 8 Multiplexed RGB LEDs.
-- Designed to work with OSHPark's 4 layer service.
+
+## Revision History
+
+r0.1 hardware has been assembled with no major issues being found at time of writing. Requires more validation, particularly the HyperRAM, microSD, and signal integrity of IO.
+
+r0.2 moves to 1v8 HyperRAM along with major IO changes to improve performance. It is yet to be assembled or tested. Pinout is not compatiable with r0.1, but mechanically is identical.
 
 ## Information
-r0.1 hardware has been assembled with no major issues being found at time of writing. Requires more validation, particularly the HyperRAM, microSD, and signal integrity of IO.
 
 USB [dfu bootloader](https://github.com/joshajohnson/had2019-playground/tree/ecp5-mini) courtesy of [tnt](https://github.com/smunaut/) is working.
 
