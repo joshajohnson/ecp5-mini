@@ -971,6 +971,10 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
 
+  (text "LEDs" (at 155.575 50.8 180)
+    (effects (font (size 5 5)) (justify right bottom))
+  )
+
   (label "CAT_R" (at 87.63 104.14 90)
     (effects (font (size 1.27 1.27)) (justify left bottom))
   )
