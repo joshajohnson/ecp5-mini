@@ -10,7 +10,7 @@
         "copper_text_thickness": 0.3,
         "copper_text_upright": true,
         "courtyard_line_width": 0.049999999999999996,
-        "dimension_precision": 1,
+        "dimension_precision": 3,
         "dimension_units": 2,
         "dimensions": {
           "arrow_length": 1270000,
@@ -121,7 +121,8 @@
         "solder_paste_margin_ratio": -0.0
       },
       "track_widths": [
-        0.25,
+        0.0,
+        0.15,
         0.2,
         0.25,
         0.3,
@@ -131,8 +132,8 @@
       ],
       "via_dimensions": [
         {
-          "diameter": 0.6,
-          "drill": 0.3
+          "diameter": 0.0,
+          "drill": 0.0
         },
         {
           "diameter": 0.6,
@@ -149,6 +150,7 @@
     "equivalence_files": []
   },
   "erc": {
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -308,6 +310,7 @@
       "global_label_dangling": "error",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "lib_symbol_issues": "warning",
       "multiple_net_names": "error",
       "net_not_bus_member": "error",
       "no_connect_connected": "error",
@@ -315,6 +318,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
       "similar_labels": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -325,7 +329,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "clock-test.kicad_pro",
+    "filename": "quad-pmod.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -345,6 +349,89 @@
         "track_width": 0.25,
         "via_diameter": 0.6,
         "via_drill": 0.3,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.2,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.15,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "IO",
+        "nets": [
+          "/PA04+",
+          "/PA04-",
+          "/PA15+",
+          "/PA15-",
+          "/PA26+",
+          "/PA26-",
+          "/PA37+",
+          "/PA37-",
+          "/PB04+",
+          "/PB04-",
+          "/PB15+",
+          "/PB15-",
+          "/PB26+",
+          "/PB26-",
+          "/PB37+",
+          "/PB37-",
+          "/PC04+",
+          "/PC04-",
+          "/PC15+",
+          "/PC15-",
+          "/PC26+",
+          "/PC26-",
+          "/PC37+",
+          "/PC37-",
+          "/PD04+",
+          "/PD04-",
+          "/PD15+",
+          "/PD15-",
+          "/PD26+",
+          "/PD26-",
+          "/PD37+",
+          "/PD37-",
+          "/PE04+",
+          "/PE04-",
+          "/PE15+",
+          "/PE15-",
+          "/PE26+",
+          "/PE26-",
+          "/PE37+",
+          "/PE37-",
+          "/PF04+",
+          "/PF04-",
+          "/PF15+",
+          "/PF15-",
+          "/PF26+",
+          "/PF26-",
+          "/PF37+",
+          "/PF37-",
+          "/PG04+",
+          "/PG04-",
+          "/PG15+",
+          "/PG15-",
+          "/PG26+",
+          "/PG26-",
+          "/PG37+",
+          "/PG37-",
+          "/PH04+",
+          "/PH04-",
+          "/PH15+",
+          "/PH15-",
+          "/PH26+",
+          "/PH26-",
+          "/PH37+",
+          "/PH37-"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "via_diameter": 0.5,
+        "via_drill": 0.25,
         "wire_width": 6.0
       }
     ],
@@ -373,6 +460,11 @@
       "default_text_size": 50.0,
       "default_wire_thickness": 6.0,
       "field_names": [],
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },
@@ -391,7 +483,7 @@
   },
   "sheets": [
     [
-      "daf94dba-bb47-4d52-baa5-28193d0dd4c3",
+      "a6404221-eda8-4da2-bc12-4edd87eada77",
       ""
     ]
   ],

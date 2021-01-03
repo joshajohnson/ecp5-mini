@@ -10,7 +10,7 @@
         "copper_text_thickness": 0.3,
         "copper_text_upright": true,
         "courtyard_line_width": 0.049999999999999996,
-        "dimension_precision": 1,
+        "dimension_precision": 3,
         "dimension_units": 2,
         "dimensions": {
           "arrow_length": 1270000,
@@ -112,16 +112,17 @@
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.25,
         "min_track_width": 0.127,
-        "min_via_annular_width": 0.049999999999999996,
+        "min_via_annular_width": 0.09999999999999999,
         "min_via_annulus": 0.09999999999999999,
-        "min_via_diameter": 0.44999999999999996,
+        "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_paste_clearance": 0.0,
         "solder_paste_margin_ratio": -0.0
       },
       "track_widths": [
-        0.25,
+        0.0,
+        0.15,
         0.2,
         0.25,
         0.3,
@@ -131,8 +132,12 @@
       ],
       "via_dimensions": [
         {
-          "diameter": 0.6,
-          "drill": 0.3
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.25
         },
         {
           "diameter": 0.6,
@@ -149,6 +154,7 @@
     "equivalence_files": []
   },
   "erc": {
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -308,6 +314,7 @@
       "global_label_dangling": "error",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "lib_symbol_issues": "warning",
       "multiple_net_names": "error",
       "net_not_bus_member": "error",
       "no_connect_connected": "error",
@@ -315,6 +322,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
       "similar_labels": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -325,15 +333,15 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "clock-test.kicad_pro",
+    "filename": "octa-pmod.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.25,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -342,9 +350,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.2,
+        "via_diameter": 0.5,
+        "via_drill": 0.25,
         "wire_width": 6.0
       }
     ],
@@ -373,6 +381,11 @@
       "default_text_size": 50.0,
       "default_wire_thickness": 6.0,
       "field_names": [],
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },
@@ -391,7 +404,7 @@
   },
   "sheets": [
     [
-      "daf94dba-bb47-4d52-baa5-28193d0dd4c3",
+      "0192430b-0504-41a0-a2d6-e7719b39c28e",
       ""
     ]
   ],

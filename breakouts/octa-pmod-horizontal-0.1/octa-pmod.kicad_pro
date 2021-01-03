@@ -74,7 +74,6 @@
         "invalid_outline": "error",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
-        "keepout": "error",
         "length_out_of_range": "error",
         "malformed_courtyard": "error",
         "microvia_drill_too_small": "error",
@@ -95,7 +94,6 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
-        "via_hole_larger_than_pad": "error",
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
@@ -107,6 +105,7 @@
         "max_error": 0.005,
         "min_clearance": 0.127,
         "min_copper_edge_clearance": 0.01,
+        "min_hole_clearance": 0.0,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
@@ -150,6 +149,7 @@
     "equivalence_files": []
   },
   "erc": {
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -317,6 +317,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
       "similar_labels": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -379,6 +380,7 @@
       "intersheets_ref_short": false,
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },
