@@ -94,8 +94,8 @@
       37,
       38
     ],
-    "visible_layers": "0043fff_ffffffff",
-    "zone_display_mode": 1
+    "visible_layers": "004bfff_ffffffff",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "ecp5-mini.kicad_prl",
