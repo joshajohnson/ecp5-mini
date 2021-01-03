@@ -258,7 +258,10 @@
       (property "Datasheet" "" (id 3) (at -17.78 39.37 0)
         (effects (font (size 1.524 1.524)) (justify right) hide)
       )
-      (property "ki_locked" "" (id 4) (at 0 0 0)
+      (property "manf#" "ECP5U_12" (id 4) (at 7.62 45.72 0)
+        (effects (font (size 1.524 1.524)) (justify right) hide)
+      )
+      (property "ki_locked" "" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)))
       )
       (symbol "ECP5U_12_CABGA256_1_1"
@@ -1696,6 +1699,7 @@
       )
     )
   )
+
 
   (junction (at 26.67 43.18) (diameter 1.016) (color 0 0 0 0))
   (junction (at 26.67 81.28) (diameter 1.016) (color 0 0 0 0))
@@ -3302,7 +3306,7 @@
     (property "Notes" "" (id 5) (at 91.44 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN2" "CL05B682KA5NNNC" (id 4) (at 91.44 45.72 0)
+    (property "MPN2" "CL05B682KA5NNNC" (id 6) (at 91.44 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3340,7 +3344,7 @@
     (property "Notes" "" (id 5) (at 93.98 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN2" "CL05B682KA5NNNC" (id 4) (at 93.98 83.82 0)
+    (property "MPN2" "CL05B682KA5NNNC" (id 6) (at 93.98 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
