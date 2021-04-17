@@ -14,4 +14,5 @@
   (lib (name "josh-keyboard")(type "KiCad")(uri "${KIPRJMOD}/../../josh-kicad-lib/josh-keyboard.pretty")(options "")(descr ""))
   (lib (name "josh-bga")(type "KiCad")(uri "${KIPRJMOD}/../../josh-kicad-lib/josh-bga.pretty")(options "")(descr ""))
   (lib (name "josh-power")(type "KiCad")(uri "/mnt/530683E96DD773A1/Dropbox/Projects/ecp5-mini/josh-kicad-lib/josh-power.pretty")(options "")(descr ""))
+  (lib (name "ecp5-mini")(type "KiCad")(uri "/mnt/530683E96DD773A1/Dropbox/Projects/ecp5-mini/hardware/ecp5-mini-lib/ecp5-mini.pretty")(options "")(descr ""))
 )

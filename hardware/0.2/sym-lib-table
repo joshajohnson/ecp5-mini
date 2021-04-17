@@ -11,4 +11,5 @@
   (lib (name "josh-keyboard")(type "KiCad")(uri "${KIPRJMOD}/../../josh-kicad-lib/josh-keyboard.kicad_sym")(options "")(descr ""))
   (lib (name "josh-connector")(type "KiCad")(uri "${KIPRJMOD}/../../josh-kicad-lib/josh-connector.kicad_sym")(options "")(descr ""))
   (lib (name "josh-ic")(type "KiCad")(uri "${KIPRJMOD}/../../josh-kicad-lib/josh-ic.kicad_sym")(options "")(descr ""))
+  (lib (name "ecp5-mini")(type "KiCad")(uri "/mnt/530683E96DD773A1/Dropbox/Projects/ecp5-mini/hardware/ecp5-mini-lib/ecp5-mini.kicad_sym")(options "")(descr ""))
 )
