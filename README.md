@@ -1,7 +1,7 @@
 # ECP5 Mini
 
 ``` 
-Status: r0.2 passed the smoke test, requires more validation.
+Status: All functions on r0.2 have been proven to work. Safe to assemble your own! 
 
 Designed in Kicad nightly, ensure you clone --recursive.
 ```
@@ -17,14 +17,14 @@ ECP5 Mini is a Lattice ECP5 FPGA in the [Black Mesa Labs "S7 Mini" form factor](
 - 32 / 64 3V3 IO on 2.54mm / 1.27mm pitch grid.
 - 64 Mbit HyperRAM DRAM.
 - USB Full Speed (12Mbit) connection to FPGA over Type-C connector.
-- MicroSD card support (on back of board).
+- MicroSD card support.
 - 8 Multiplexed RGB LEDs.
 
 ## Revision History
 
-r0.1 hardware has been assembled with no major issues being found at time of writing. Requires more validation, particularly the HyperRAM, microSD, and signal integrity of IO.
+r0.1 is depreciated. ~~hardware has been assembled with no major issues being found at time of writing. Requires more validation, particularly the HyperRAM, microSD, and signal integrity of IO.~~
 
-r0.2 moves to 1v8 HyperRAM along with major IO changes to improve performance. It is yet to be tested. Pinout is not compatiable with r0.1, but mechanically is identical.
+r0.2 moves to 1v8 HyperRAM along with major IO changes to improve performance. Pinout is not compatiable with r0.1, but mechanically is identical. Projects utiliting the features of the board to be completed.
 
 ## Information
 
@@ -33,9 +33,6 @@ USB [dfu bootloader](https://github.com/joshajohnson/had2019-playground/tree/ecp
 Example gateware can be found [here](https://github.com/joshajohnson/ecp5-mini-projects), however please note I built this board to force myself to write more HDL so it's probably full of bad practices.
 
 Check the [issues](https://github.com/joshajohnson/ecp5-mini/issues) for any errata / improvements to the design.
-
-## Why?
-After getting over my fears of BGA after assembling a [Glasgow](https://github.com/GlasgowEmbedded/Glasgow) recently, I decided the next logical step was to design a BGA into a board of my own. An ECP5 was the obvious choice to follow on from my [iCE40-feather](https://github.com/joshajohnson/ice40-feather) designed last year as it steps up the resources and available IO. There are also a growing number of open ECP5 dev boards and projects that I have / can learn from during the hardware and gateware development.
 
 ## Thanks
 Not only was this project inspired by the growing number of OSHW FPGA designs, but I referenced a number of them during the hardware development. A huge thank you needs to be given to these people as otherwise my design would likely have even more bugs...
